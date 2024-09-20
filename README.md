@@ -10,6 +10,16 @@ This repository contains implementations for [machine unlearning](https://arxiv.
 
 ## Overview
 
+Here's a list of unlearning methods we have implemented so far. 
+
+<div align="center">
+
+|Method|Model|
+|------|-----|
+|[max_entropy](https://arxiv.org/abs/2408.00761)|[CrystalChat](https://huggingface.co/LLM360/CrystalChat)|
+
+</div>
+
 ### Directory Structure
 
 ``unlearn.py`` is the main entrypoint for running unlearning methods. It uses python modules in ``methods/`` and ``utils/`` folders.
